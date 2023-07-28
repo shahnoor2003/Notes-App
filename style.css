@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Pacifico&family=Poppins:ital,wght@1,600&family=Russo+One&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    background-color: var(--color-1);
+}
+:root{
+    --color-1 :#4C4C6D ;
+    --color-2 :#1B9C85;
+    --color-3 :#E8F6EF ;
+    --color-4 :#FFE194 ;
+}
+header{
+    background-color: var(--color-2) ;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.note:nth-of-type(odd){
+    background-color:var(--color-2);
+}
+.note:nth-of-type(odd) p{
+   color:white;
+}
+.note{
+    height: 200px;
+    width: 200px;
+    background-color: #E8F6EF;
+    overflow-x: hidden;
+}
+.note::-webkit-scrollbar{
+    display: none;
+}
+.d-flex{
+    display: flex;
+}
+.jsc{
+    justify-content: center;
+}
+.jse{
+    justify-content: end;
+}
+.jsa{
+    justify-content: space-around;
+}
+.aic{
+    align-items: center;
+}
+#save .span1{
+    font-size: 25px;
+    background-color: transparent;
+}
+.add-btn span{
+    display: flex;
+  font-size: 25px;
+  background-color: #FFE194;
+  border-radius: 50%;
+  margin-right: 5px;
+ 
+}
+.pa{
+    position: relative;
+}
+.add-btn button{
+    background-color: transparent;
+    font-size: 30px;
+    color: white;
+    border: none;
+    margin: 10%;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .3s linear;
+}
+.ps{
+    position: -webkit-sticky;
+}
+.nn{
+    display: none;
+}
+.add-btn button:hover{
+    background-color: var(--color-4) ;
+    color: rgb(112, 112, 112);
+}
+.fs-3{
+    font-size: 30px;
+}
+.cp{
+    cursor: pointer;
+}
+textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    padding: 5px;
+    color: black;
+}
+.hidden {
+    display: none;
+}
+.main{
+    font-size: 23px;
+}
+.note p{
+    height: 100%;
+    font-size: 20px;
+    padding: 8px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
